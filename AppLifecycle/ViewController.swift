@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     private func setupAppDescription() {
         appDescription.text = "Проект, який друкує повідомлення у консоль: \n - (“app goes to background”) коли додаток був згорнутий; \n - (“app becomes active”) коли розгорнутий."
         appDescription.font = UIFont(name: "GillSans-Light", size: 21)
-        appDescription.textColor = .black
+        //appDescription.textColor = .black
         appDescription.textAlignment = .justified
         appDescription.numberOfLines = 6
         //appDescription.lineHeight = CGFloat(87) //- не працює..
